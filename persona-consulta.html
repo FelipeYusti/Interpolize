@@ -363,7 +363,23 @@
           <div class="col">
             <div class="card">
               <div class="card-header">
-                Consulta de personas <button type="button" class="btn btn-primary">Nuevo</button>
+                Consulta de personas
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#frmNuevo"
+                >
+                  Nuevo
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#frmNuevo2"
+                >
+                  Nueva Modal
+                </button>
               </div>
               <div class="card-body">
                 <!-- contenido de la CARD -->
@@ -378,19 +394,14 @@
                       <th>Borrar</th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
+                  <tbody id="mitabla">
+                    <!--<tr>
+                       <th scope="row">1</th>
                       <td>Mark</td>
                       <td>Otto</td>
                       <td>@mdo</td>
-                      <td>
-                        <a href="#"><i class="bi bi-pencil"></i></a>
-                      </td>
-                      <td>
-                        <a href="#"><i class="bi bi-trash"></i></a>
-                      </td>
-                    </tr>
+                      
+                    </tr>-->
                   </tbody>
                 </table>
               </div>
@@ -399,7 +410,181 @@
         </div>
       </section>
       <!-- FIN del contenido -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="frmNuevo"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-log">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Final Modal-->
+      <div
+        class="modal fade"
+        id="frmNuevo2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">CALI BELLA CIUDAD</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!--Aca va el contenido de la modal-->
+
+              <div class="container-fuid">
+                <div class="row">
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Example textarea</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Example textarea</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Example textarea</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Example textarea</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label"
+                        >Example textarea</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Fin del contenido de la modal-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <!--Final Modal-->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
@@ -426,5 +611,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="/assets/js/personaconsulta.js"></script>
   </body>
 </html>

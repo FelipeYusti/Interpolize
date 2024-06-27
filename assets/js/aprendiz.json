@@ -1,0 +1,7 @@
+[
+  { "id": 123, "First": "Juan", "Last": "Perez", "Handle": "juanPe@gmail.com" },
+  { "id": 234, "First": "Luis", "Last": "Lopez", "Handle": "lulo@gmail.com" },
+  { "id": 456, "First": "Felipe", "Last": "Yusty", "Handle": "gutter@gmail.com" },
+  { "id": 678, "First": "Jorge", "Last": "Curioso", "Handle": "j11@gmail.com" },
+  { "id": 891, "First": "Daniel", "Last": "Salaz", "Handle": "saldaz@gmail.com" }
+]
